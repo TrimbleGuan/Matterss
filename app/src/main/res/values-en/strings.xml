@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Mattress</string>
+    <string name="forgetpassword">Forgot your password</string>
+    <string name="pleaseYourNumber">Please enter your cell phone number</string>
+    <string name="pleaseYourVerificationCode">Please enter a verification code</string>
+    <string name="getCode">Get Verification Code</string>
+    <string name="next">Next</string>
+    <string name="pleaseYourPassword">Please enter the password</string>
+    <string name="pleaseYourPasswordNext">Please enter a confirmation password</string>
+    <string name="accomplish">Accomplish</string>
+    <string name="home">Home</string>
+    <string name="Report">Report</string>
+    <string name="mine">Mine</string>
+</resources>
