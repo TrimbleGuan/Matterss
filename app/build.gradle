@@ -76,4 +76,50 @@ dependencies {
 
     //解决64K报错
     implementation 'com.android.support:multidex:1.0.1'
+
+    //butterknife
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //时间选择器
+    implementation 'com.contrarywind:Android-PickerView:3.2.6'
+
+    //城市选择器
+    implementation 'liji.library.dev:citypickerview:1.1.0'
+
+    //弹出框
+    implementation 'com.mylhyl:circleDialog:2.6.6'
+
+    //进度
+    implementation 'com.github.gittjy:LoadingDialog:1.0.2'
+    //侧滑返回
+    implementation 'com.youngfeng.android:snake:0.1.0'
+    annotationProcessor 'com.youngfeng.android:snake-compiler:0.1.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+
+    //轮播图
+    implementation 'com.youth.banner:banner:1.4.10'
+
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    //图片多选
+    implementation 'com.baoyz.actionsheet:library:1.1.7'
+    //水平侧滑
+    implementation 'cn.finalteam:galleryfinal:1.4.8.7'
+    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    //图片选择器
+    implementation 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    //日历
+    implementation 'com.github.Othershe:CalendarView:1.2.1'
+    //历史搜索
+    implementation 'com.wenwenwen888:searchbox:1.0.1'
+    implementation 'com.contrarywind:Android-PickerView:3.2.6'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    //recyclerview下拉加载依赖
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4'
+    //snackbar
+    implementation 'com.nispok:snackbar:2.11.+'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.5.0'
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
 }

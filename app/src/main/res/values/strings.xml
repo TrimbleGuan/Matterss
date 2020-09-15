@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Mattress</string>
+    <string name="mine_data">我的资料</string>
+    <string name="touxiang">头像</string>
+    <string name="yonghuming">用户名</string>
+    <string name="shouji">手机</string>
+    <string name="diqu">地区</string>
+    <string name="baocun">保存</string>
+    <string name="shezhi">设置</string>
+    <string name="guanyuwomen">关于我们</string>
+    <string name="banzhuzhongxin">帮助中心</string>
+    <string name="qingchuhuancun">清除缓存</string>
+    <string name="qiehuanyuyan">切换语言</string>
+    <string name="baojinshezhi">报警设置</string>
+    <string name="jibenxinxi">基本信息</string>
+    <string name="banbenhao">版本号</string>
+    <string name="tuichu">退出</string>
+    <string name="zhongwen">中文</string>
+    <string name="English">English</string>
+    <string name="genggei">更改</string>
+    <string name="gongsi">山东海天智能工程有限公司</string>
+    <string name="suoxubangzhu">您所需要的帮助</string>
+    <string name="zhanghaowenti">1.账号登录问题</string>
+    <string name="zhuxiaowenti">2.注销账号问题</string>
+    <string name="xinxiwenti">3.信息通知问题</string>
+    <string name="xinlv">心率</string>
+    <string name="xinlvxiaxian">心率下限</string>
+    <string name="xinlvshangxian">心率上限</string>
+    <string name="huxilv">呼吸率</string>
+    <string name="huxianxiaxian">呼吸下限</string>
+    <string name="huxishangxian">呼吸上限</string>
 </resources>
