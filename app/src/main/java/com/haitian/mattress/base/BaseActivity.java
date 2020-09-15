@@ -49,9 +49,6 @@ public abstract class BaseActivity extends AppCompatActivity {
     private int b = 0;      //用来计时。
     private String mTime;
 
-
-
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,7 +82,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 //        }
 
         //设置手机应用内部状态栏字体图标为白色
-        changeStatusBarTextImgColor(false);
+        changeStatusBarTextImgColor(true);
         //设置手机应用内部状态栏字体图标为黑色
 //        changeStatusBarTextImgColor(true);
 
