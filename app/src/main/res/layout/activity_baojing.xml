@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="16dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="@dimen/dp_10"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/baojinshezhi"
+            android:textColor="@color/colorText"
+            android:padding="@dimen/dp_12"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="@dimen/dp_10"
+            android:visibility="invisible"
+            android:layout_marginRight="@dimen/dp_10"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baojing_bg"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xinlv"
+                android:padding="@dimen/dp_10"
+                android:textColor="@color/colorText"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xinlvxiaxian"
+                    android:padding="@dimen/dp_10"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55次/分"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xinlvshangxian"
+                    android:padding="@dimen/dp_10"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55次/分"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/baojing_bg"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/huxilv"
+                android:padding="@dimen/dp_10"
+                android:textColor="@color/colorText"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/huxianxiaxian"
+                    android:padding="@dimen/dp_10"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55次/分"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/huxishangxian"
+                    android:padding="@dimen/dp_10"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="55次/分"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/genggai_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_22"
+        android:layout_marginTop="@dimen/dp_200"
+        android:layout_marginRight="@dimen/dp_21"
+        android:background="@drawable/baocun_bg"
+        android:text="@string/genggei"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_18" />
+
+</LinearLayout>
