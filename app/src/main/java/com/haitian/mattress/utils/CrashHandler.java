@@ -1,10 +1,11 @@
-package com.haitian.mattress.util;
+package com.haitian.mattress.utils;
 
 import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
 import android.os.Looper;
 import android.util.Log;
+
 
 import com.haitian.mattress.BuildConfig;
 
@@ -57,7 +58,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
             handleException(ex);
 
             try {
-                Thread.sleep(500);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

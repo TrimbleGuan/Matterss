@@ -1,4 +1,4 @@
-package com.haitian.mattress.util;
+package com.haitian.mattress.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,11 +7,11 @@ import android.content.SharedPreferences;
  * Created by chong.han on 2018/8/22.
  */
 
-public class SPUtil {
+public class SPUtil2 {
     private SharedPreferences preferences;
     private SharedPreferences.Editor editor;
 
-    public SPUtil(Context context, String fileName) {
+    public SPUtil2(Context context, String fileName) {
         preferences = context.getSharedPreferences(fileName, context.MODE_PRIVATE);
         editor = preferences.edit();
     }
