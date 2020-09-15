@@ -1,4 +1,4 @@
-package com.haitian.mattress.util;
+package com.haitian.mattress.utils;
 
 import android.util.Log;
 
@@ -9,6 +9,7 @@ import com.google.gson.reflect.TypeToken;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.lang.reflect.Type;
 import java.util.Collection;
 import java.util.Enumeration;

@@ -1,4 +1,4 @@
-package com.haitian.mattress.util;
+package com.haitian.mattress.utils;
 
 import android.text.TextUtils;
 

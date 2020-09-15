@@ -1,6 +1,8 @@
-package com.haitian.mattress.util;
+package com.haitian.mattress.utils;
 
 import android.util.Log;
+
+
 import com.haitian.mattress.app.DoctorBaseAppliction;
 
 import java.text.SimpleDateFormat;

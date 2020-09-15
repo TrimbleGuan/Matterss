@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import com.haitian.mattress.app.Constants;
 import com.haitian.mattress.app.DoctorBaseAppliction;
-import com.haitian.mattress.util.LogUtil;
 
 import java.util.Set;
 
